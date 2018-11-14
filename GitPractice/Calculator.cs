@@ -15,7 +15,9 @@ namespace GitPractice
 
         public int Subtract(int num1, int num2)
         {
-            return 0;
+            int difference = 0;
+            difference = num1 - num2;
+            return difference;
         }
 
         public int Multiply(int num1, int num2)
