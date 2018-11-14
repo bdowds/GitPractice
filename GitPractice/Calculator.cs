@@ -22,7 +22,9 @@ namespace GitPractice
 
         public int Multiply(int num1, int num2)
         {
-            return 0;
+            int product = 0;
+            product = num1 * num2;
+            return product;
         }
 
         public int Divide(int num1, int num2)
