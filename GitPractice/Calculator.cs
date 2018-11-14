@@ -23,9 +23,7 @@ namespace GitPractice
 
         public int Divide(int num1, int num2)
         {
-            int quotient = 0;
-            quotient = num1 / num2;
-            return quotient;
+            return num1 / num2;
         }
     }
 }
