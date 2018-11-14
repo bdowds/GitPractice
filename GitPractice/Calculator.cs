@@ -8,9 +8,7 @@ namespace GitPractice
     {
         public int Add(int num1, int num2)
         {
-            int sum = 0;
-            sum = num1 + num2;
-            return sum;
+            return num1 + num2;
         }
 
         public int Subtract(int num1, int num2)
