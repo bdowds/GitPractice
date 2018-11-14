@@ -8,30 +8,22 @@ namespace GitPractice
     {
         public int Add(int num1, int num2)
         {
-            int sum = 0;
-            sum = num1 + num2;
-            return sum;
+            return num1 + num2;
         }
 
         public int Subtract(int num1, int num2)
         {
-            int difference = 0;
-            difference = num1 - num2;
-            return difference;
+            return num1 - num2;
         }
 
         public int Multiply(int num1, int num2)
         {
-            int product = 0;
-            product = num1 * num2;
-            return product;
+            return num1 * num2;
         }
 
         public int Divide(int num1, int num2)
         {
-            int quotient = 0;
-            quotient = num1 / num2;
-            return quotient;
+            return num1 / num2;
         }
     }
 }
