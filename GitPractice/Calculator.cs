@@ -20,24 +20,24 @@ namespace GitPractice
 
 
 
-        public int Add(int num1, int num2)
+        public int Add(int firstNumberToAdd, int secondNumberToAdd)
         {
-            return num1 + num2;
+            return firstNumberToAdd + secondNumberToAdd;
         }
 
-        public int Subtract(int num1, int num2)
+        public int Subtract(int numberToSubrtractFrom, int numberToSubtract)
         {
-            return num1 - num2;
+            return numberToSubrtractFrom - numberToSubtract;
         }
 
-        public double Multiply(double num1, double num2)
+        public double Multiply(double firstNumberToMultiply, double secondNumberToMultiply)
         {
-            return num1 * num2;
+            return firstNumberToMultiply * secondNumberToMultiply;
         }
 
-        public int Divide(int num1, int num2)
+        public int Divide(int numberToDivideFrom, int numberToDivide)
         {
-            return num1 / num2;
+            return numberToDivideFrom / numberToDivide;
         }
     }
 }
