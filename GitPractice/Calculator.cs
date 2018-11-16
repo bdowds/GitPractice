@@ -19,24 +19,24 @@ namespace GitPractice
         //Deleted branch: git branch -d BranchName
 
 
-        public int Add(int first, int second)
+        public int Add(int n, int x)
         {
-            return first + second;
+            return n + x;
         }
 
-        public int Subtract(int first, int second)
+        public int Subtract(int n, int x)
         {
-            return first - second;
+            return n - x;
         }
 
-        public double Multiply(double first, double second)
+        public double Multiply(double n, double x)
         {
-            return first * second;
+            return n * x;
         }
 
-        public int Divide(int first, int second)
+        public int Divide(int n, int x)
         {
-            return first / second;
+            return n / x; 
         }
     }
 }
