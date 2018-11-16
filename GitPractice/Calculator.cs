@@ -34,8 +34,12 @@ namespace GitPractice
             return n * x;
         }
 
-        public int Divide(int n, int x)
+        public double Divide(double n, double x)
         {
+            if(x == 0)
+            {
+                return 0;
+            }
             return n / x; 
         }
     }
